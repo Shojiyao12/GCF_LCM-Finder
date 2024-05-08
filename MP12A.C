@@ -1,7 +1,7 @@
 /*Programmer's Block
 Program Name: MP1A
 Developer and Date of Submission: Shaw Jie Yao, October 07, 2021
-Description of the program: Finds the factors of the two inputted non-zero positive numbers and provides the GCF or LCM of those numbers which is displayed on a menu.
+Description of the program: Finds the factors of the two inputted non-zero positive numbers and provides the GCF or LCM of those numbers which are displayed on a menu.
 */
 
 #include <stdio.h>
