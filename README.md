@@ -10,7 +10,7 @@
 ## Quickstart Guide
 1. Copy all the contents from this repository.
 2. Open these files using an IDE, like VSCode
-3. UPon running any of the three files
+3. Upon running any of the three files
    - The menu should display the user with three choices:
        - A. GCF
        - B. LCM
