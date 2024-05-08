@@ -1,11 +1,11 @@
 ## Project Description
 - The program will display a menu to let the user choose whether to show the GCF (A) or LCM (B). If the options are A and B, the user inputs two non-zero positive numbers and then displays the result. After displaying the required output, the program will display the menu again until the user chooses the exit option (C). (Note: DO/WHILE loop for the menu and FOR loop for all other looping needs).
-    - Overview of MP1A:
-        - Uses a basic structure and common algorithm for obtaining GCFs and LCMs.
+    - Overview of MP11A:
+        - is a prototype that uses a basic structure and common algorithm for obtaining GCFs and LCMs.
     - Overview of MP1.1A:
-        - Uses a basic structure but the algorithm has been modified to start the search from the largest number inputted by the user, instead of starting from 0 or 1 every time, for faster execution.
+        - is the final version (1) that uses a basic structure, but the algorithm has been modified to start the search from the largest number inputted by the user, instead of starting from 0 or 1 every time, for faster execution. 
     - Overview of MP2A:
-        - Uses functions but the same algorithm from MP1A.
+        - is the final version (2) that uses functions, but the same algorithm from MP1A.
 
 ## Quickstart Guide
 1. Copy all the contents from this repository.
