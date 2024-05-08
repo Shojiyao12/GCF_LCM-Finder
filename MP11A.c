@@ -1,7 +1,7 @@
 /*Programmer's Block
 Program Name: MP1A
 Developer and Date of Submission: Shaw Jie Yao, October 07, 2021
-Description of the program: Finds the factors of the two inputted non-zero positive numbers and provides the GCF or LCM of those numbers which is displayed on a menu.     
+Description of the program: Finds the factors of the two inputted non-zero positive numbers and provides the GCF or LCM of those numbers which are displayed on a menu.     
 */
 
 #include <stdio.h>
@@ -32,22 +32,24 @@ int main(void)
             printf ("FACTORS of\n%llu: ", n1);
         for (f1 = 1; f1 <= n1; f1++)
         {
-          if(n1%f1 == 0)
+          if(n1 % f1 == 0)
         {
-           printf ("%llu, ", f1);
+           printf ("%llu", f1);
+           if (f1 != n1) printf(", ");
         }
         }
            printf ("\n%llu: ", n2);
         for (f2 = 1; f2 <= n2; f2++)
         {
-          if(n2%f2 == 0)
+          if(n2 % f2 == 0)
         {
-           printf ("%llu, ", f2);
+           printf ("%llu", f2);
+           if (f2 != n2) printf(", ");
         }
         }
         for (gcf = 1; gcf <= n1; gcf++)
         {
-          if(N1%gcf == 0 && N2%gcf == 0)
+          if(N1 % gcf == 0 && N2 % gcf == 0)
        {
          GCF = gcf;
        }
@@ -69,27 +71,29 @@ int main(void)
             printf ("FACTORS of\n%llu: ", n1);
         for (f1 = 1; f1 <= n1; f1++)
         {
-          if(n1%f1 == 0)
+          if(n1 % f1 == 0)
         {
-           printf ("%llu, ", f1);
+           printf ("%llu", f1);
+           if (f1 != n1) printf(", ");
         }
         }
            printf ("\n%llu: ", n2);
         for (f2 = 1; f2 <= n2; f2++)
         {
-          if(n2%f2 == 0)
+          if(n2 % f2 == 0)
         {
-           printf ("%d, ", f2);
+           printf ("%llu", f2);
+           if (f2 != n2) printf(", ");
         }
         }
         for (gcf = 1; gcf <= n1; gcf++)
         {
-          if(N1%gcf == 0 && N2%gcf == 0)
+          if(N1 % gcf == 0 && N2 % gcf == 0)
        {
            GCF = gcf;
        }
        }
-        LCM = (N1*N2) / GCF;
+        LCM = (N1 * N2) / GCF;
         printf("\nLCM = %llu", LCM);
         }   
     break;
